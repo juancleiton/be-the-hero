@@ -1,0 +1,10 @@
+# npm install react-icons
+Esse comando adiciona um pocate de vários icones de empresas diferentes
+como a FontAwesome, Material Icon  etc
+
+# npm install react-router-dom
+Esse comando adiciona um pacote que permite criar rotas para a aplicação
+
+# npm install axios
+Esse comando instala um cliente HTTP para o projeto react
+permitindo que se conecte com o backend
