@@ -1,0 +1,9 @@
+# npm install -g expo-cli
+Esse comando é para inserir o pacote globalmente na minha máquina
+e permitir rodar um emulador de celular
+
+# expo install expo-constants
+É um pacote que serve para resolver um problema de visualização
+na tela, o conteúdo ficar abaixo da barrinha de notificações (Status Bar)
+dos dispositivos móveis
+Basicamente ele me retorna o tamanho dessa barrinha
