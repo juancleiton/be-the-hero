@@ -1,0 +1,2 @@
+# npx knex migrate:latest
+Esse comando executa as migrations em um banco de dados

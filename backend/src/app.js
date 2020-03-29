@@ -1,5 +1,6 @@
 const express = require('express')
 const cors = require('cors')
+const { errors } = require('celebrate');
 const routes = require('./routes')
 
 const app = express()
@@ -33,6 +34,14 @@ app.use(express.json())
 app.use(routes)
 
 /**
+ * CELEBRATE
+ * esse codigo de erros serve para lidar com os erros
+ * que ocorrer quando o sistema validar os dados enviados
+ * pelo usuário.
+ */
+app.use(errors())
+
+/**
  * Tipos de Banco de Dados
  * SQL: MySQL, SQLite, PostrgeSQL, Oracle, SQL Server
  * NoSQL: MongoDB, CouchDB, etc
@@ -47,6 +56,6 @@ app.use(routes)
  * http://knexjs.org/
  */
 
-
-app.listen(3333)
-console.log('Servidor: Rodando...')
+module.exports = app
+// app.listen(3333)
+// console.log('Servidor: Rodando...')
